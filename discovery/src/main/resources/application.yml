@@ -1,0 +1,35 @@
+---
+spring:
+  profiles: peer1
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    service-url:
+      defaultZone: http://peer2.scdata.top/eureka,http://peer3.scdata.top/eureka
+server:
+  port: 8761
+
+---
+spring:
+  profiles: peer2
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    service-url:
+      defaultZone: http://peer1.scdata.top/eureka,http://peer3.scdata.top/eureka
+server:
+  port: 8762
+
+---
+spring:
+  profiles: peer3
+eureka:
+  instance:
+    hostname: peer3
+  client:
+    service-url:
+      defaultZone: http://peer1.scdata.top/eureka,http://peer2.scdata.top/eureka
+server:
+  port: 8763
