@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config" />
         <module name="discovery" />
+        <module name="hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config" target="1.8" />
       <module name="discovery" target="1.8" />
+      <module name="hello" target="1.8" />
       <module name="manage-center" target="1.8" />
     </bytecodeTargetLevel>
   </component>
