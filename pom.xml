@@ -11,7 +11,7 @@
 
     <modules>
         <module>discovery</module>
-        <module>hello</module>
+        <!--<module>hello</module>-->
         <module>config</module>
         <module>api-gateway</module>
     </modules>
