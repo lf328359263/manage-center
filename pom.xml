@@ -13,8 +13,8 @@
         <!--<module>discovery</module>-->
         <!--<module>hello</module>-->
         <!--<module>config</module>-->
-        <!--<module>api-gateway</module>-->
-        <module>monitor</module>
+        <module>api-gateway</module>
+        <!--<module>monitor</module>-->
     </modules>
 
     <parent>
