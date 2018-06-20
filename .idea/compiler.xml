@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="config" />
+        <module name="demo" />
         <module name="discovery" />
         <module name="hello" />
         <module name="monitor" />
@@ -18,7 +19,6 @@
       <module name="config" target="1.8" />
       <module name="discovery" target="1.8" />
       <module name="hello" target="1.8" />
-      <module name="manage-center" target="1.8" />
       <module name="monitor" target="1.8" />
     </bytecodeTargetLevel>
   </component>
